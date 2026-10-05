@@ -1,0 +1,10 @@
+{
+  "source": "Task08 first Live saved diagnostic",
+  "node": "review_progress",
+  "field_path": "updated_plan",
+  "expected_type": "object|null",
+  "validation_rule": "model_type",
+  "actual_type": "NOT_RETAINED",
+  "safe_shape": null,
+  "note": "Rejected value was not saved; no array/string shape is inferred."
+}

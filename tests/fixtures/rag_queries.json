@@ -1,0 +1,13 @@
+[
+  {"query":"折扣审批","expected_doc_id":"POL-SALES-001"},
+  {"query":"POL-SALES-001","expected_doc_id":"POL-SALES-001"},
+  {"query":"优惠超过15%由谁审批","expected_doc_id":"POL-SALES-001"},
+  {"query":"特殊报价有效期","expected_doc_id":"POL-SALES-003"},
+  {"query":"客户协议价延期","expected_doc_id":"POL-SALES-003"},
+  {"query":"低毛利销售治理","expected_doc_id":"POL-SALES-002"},
+  {"query":"毛利率低于8%怎么办","expected_doc_id":"POL-SALES-002"},
+  {"query":"订单复核","expected_doc_id":"POL-SALES-005"},
+  {"query":"CRM跟进","expected_doc_id":"POL-SALES-006"},
+  {"query":"区域促销活动","expected_doc_id":"POL-SALES-004"},
+  {"query":"quantum astrophysics nebula","expected_doc_id":null}
+]

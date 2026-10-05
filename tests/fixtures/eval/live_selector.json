@@ -1,0 +1,127 @@
+[
+  {
+    "case_id": "L1",
+    "expected_tool": "get_sales_overview",
+    "input": {
+      "query": "确认2026年8月公司整体指标",
+      "goal": {
+        "supported": true,
+        "task_type": "ROOT_CAUSE_ANALYSIS",
+        "normalized_goal": "确认2026年8月公司整体指标",
+        "start_date": "2026-08-01",
+        "end_date": "2026-08-31",
+        "requested_outputs": [
+          "经营证据"
+        ],
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "step": {
+        "step_id": "s1",
+        "objective": "确认2026年8月公司整体指标",
+        "expected_output": "当前步骤所需的证据",
+        "status": "PENDING"
+      }
+    }
+  },
+  {
+    "case_id": "L2",
+    "expected_tool": "analyze_region_performance",
+    "input": {
+      "query": "判断2026年8月哪个区域拖累利润",
+      "goal": {
+        "supported": true,
+        "task_type": "ROOT_CAUSE_ANALYSIS",
+        "normalized_goal": "判断2026年8月哪个区域拖累利润",
+        "start_date": "2026-08-01",
+        "end_date": "2026-08-31",
+        "requested_outputs": [
+          "经营证据"
+        ],
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "step": {
+        "step_id": "s1",
+        "objective": "判断2026年8月哪个区域拖累利润",
+        "expected_output": "当前步骤所需的证据",
+        "status": "PENDING"
+      }
+    }
+  },
+  {
+    "case_id": "L3",
+    "expected_tool": "analyze_product_performance",
+    "input": {
+      "query": "拆解2026年8月华东产品表现",
+      "goal": {
+        "supported": true,
+        "task_type": "ROOT_CAUSE_ANALYSIS",
+        "normalized_goal": "拆解2026年8月华东产品表现",
+        "start_date": "2026-08-01",
+        "end_date": "2026-08-31",
+        "requested_outputs": [
+          "经营证据"
+        ],
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "step": {
+        "step_id": "s1",
+        "objective": "拆解2026年8月华东产品表现",
+        "expected_output": "当前步骤所需的证据",
+        "status": "PENDING"
+      }
+    }
+  },
+  {
+    "case_id": "L4",
+    "expected_tool": "query_orders",
+    "input": {
+      "query": "核实2026年8月华东SKU-A12异常订单审批，需要订单级审批记录",
+      "goal": {
+        "supported": true,
+        "task_type": "ROOT_CAUSE_ANALYSIS",
+        "normalized_goal": "核实2026年8月华东SKU-A12异常订单审批，需要订单级审批记录",
+        "start_date": "2026-08-01",
+        "end_date": "2026-08-31",
+        "requested_outputs": [
+          "经营证据"
+        ],
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "step": {
+        "step_id": "s1",
+        "objective": "核实2026年8月华东SKU-A12异常订单审批，需要订单级审批记录",
+        "expected_output": "当前步骤所需的证据",
+        "status": "PENDING"
+      }
+    }
+  },
+  {
+    "case_id": "L5",
+    "expected_tool": "search_sales_policy",
+    "input": {
+      "query": "查询折扣审批制度",
+      "goal": {
+        "supported": true,
+        "task_type": "ROOT_CAUSE_ANALYSIS",
+        "normalized_goal": "查询折扣审批制度",
+        "start_date": "2026-08-01",
+        "end_date": "2026-08-31",
+        "requested_outputs": [
+          "经营证据"
+        ],
+        "needs_clarification": false,
+        "clarification_question": null
+      },
+      "step": {
+        "step_id": "s1",
+        "objective": "查询折扣审批制度",
+        "expected_output": "当前步骤所需的证据",
+        "status": "PENDING"
+      }
+    }
+  }
+]

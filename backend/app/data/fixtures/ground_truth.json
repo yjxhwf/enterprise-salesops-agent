@@ -1,0 +1,27 @@
+{
+  "dataset_version": "salesops-synthetic-v1",
+  "seed": 20260917,
+  "analysis_period": "2026-08",
+  "comparison_period": "2026-07",
+  "expected_direction": {"revenue": "increase", "profit": "decrease", "margin": "decrease"},
+  "primary_causes": [
+    {"fact_id": "east_a12_deep_discount", "region": "EAST_CHINA", "product_id": "SKU-A12", "customers": ["C102", "C207"], "anomaly_type": "deep_discount"},
+    {"fact_id": "b07_low_margin_mix_shift", "product_id": "SKU-B07", "anomaly_type": "low_margin_mix_shift"},
+    {"fact_id": "c03_high_margin_volume_decline", "product_id": "SKU-C03", "anomaly_type": "high_margin_volume_decline"}
+  ],
+  "expected_policy_violation_product": "SKU-A12",
+  "expected_problem_customers": ["C102", "C207"],
+  "fact_ids": ["revenue_up", "profit_down", "margin_down", "east_a12_deep_discount", "b07_low_margin_mix_shift", "c03_high_margin_volume_decline", "c102_discount_evidence", "c207_discount_evidence", "missing_approval"],
+  "thresholds": {
+    "revenue_growth_pct": ["4", "12"],
+    "profit_growth_pct": ["-20", "-8"],
+    "minimum_margin_drop_pp": "3",
+    "minimum_east_profit_drop_pct": "10",
+    "discount_range": ["0.74", "0.82"],
+    "a12_minimum_discount_rate": "0.85",
+    "minimum_b07_share_gain_pp": "5",
+    "c03_revenue_growth_pct": ["-50", "-25"],
+    "minimum_standard_margin_gap_pp": "25",
+    "minimum_discount_recovery_fraction": "0.5"
+  }
+}
